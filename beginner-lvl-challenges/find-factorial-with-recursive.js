@@ -6,8 +6,6 @@ function findFactorialWithWhile(num) {
   } else {
     return num * findFactorialWithWhile(num - 1);
   }
-
-  return count;
 }
 
 console.log(`factorial of ${number} is`, findFactorial(number));
